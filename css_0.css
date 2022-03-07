@@ -1,14 +1,25 @@
 	.header{
+	height: 220px;
 	text-align: center;
-	padding: 20px;
-	background-color: #32CD32;
+	padding: 30px;
+	background-image: linear-gradient(#ABFB2F, #83B727);
+}
+*{
+	font-family: arial;
+}
+.proactively{
+	font-size: 50px;
+	margin-top: : 25px;
 }
 .button{
-	height: 200px;
-	width: 200px;
-	background-color: blue;
+	height: 180px;
+	width: 180px;
+	font-size: 13px;
+	background-color: #2D6CA6;
 	color: white;
 	padding: 8px;
+	border-radius: 5px;
+
 
 }
 .middle{
@@ -66,3 +77,14 @@
 
 }
 
+.footerr{
+	text-align: center;
+	margin: 30px;
+}
+.terms{
+	color: 	#0000CD;
+
+}
+.copyrigt{
+	color: #A0A0A0;
+}
