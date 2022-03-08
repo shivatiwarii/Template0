@@ -5,7 +5,7 @@
 	background-image: linear-gradient(#ABFB2F, #83B727);
 }
 *{
-	font-family: arial;
+	font-family: Arial Narrow;
 }
 .proactively{
 	font-size: 50px;
@@ -15,37 +15,53 @@
 	height: 180px;
 	width: 180px;
 	font-size: 13px;
-	background-color: #2D6CA6;
+	background-color: #6666FF;
 	color: white;
 	padding: 8px;
 	border-radius: 5px;
 
 
 }
-.middle{
+.superior{
 	text-align: center;
 	padding: 20px;
+}
+
+.superiorcollabration{
+	font-size: 35px;
+
+}
+.visualize{
+	font-size: 23px;
+	color: #909090;
 }
 
 .center{
 
 	text-align: center;
 	justify-content: center;
-	margin: auto;
 	display: flex;
 
 }
 
-
+.proactivelyenvisloned{
+	text-align: center;
+	font-size: 15px;
+	color: #909090;
+}
 .box1{
    
-    display: inline;
-    margin: 20px;
-    float: left;
-    width: 250px;
-    height: 150px;
-    background: red;
+    
 
+}
+
+.efficiently{
+	font-size: 25px;
+	color: 	#0000FF;
+}
+.collab{
+	font-size: 15px;
+	color: #696969;
 }
 
 .footer{
