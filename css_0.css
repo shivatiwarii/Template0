@@ -64,32 +64,37 @@
 	color: #696969;
 }
 
-.footer{
-	background-color: #32CD32;
-	height: 350px;
-	width: 100%;
+.circleimage{
+	background-image: linear-gradient(#ABFB2F, #83B727);
+	height: 430px;
+	
 	text-align: center;
 	justify-content: center;
-	margin: auto;
+	
 	display: flex;	
 }
 
 .boxbottom1{
 	
     display: inline;
-    margin: 20px;
-    float: left;
+    margin: 30px;
     
+    float: left;
+
+    
+}
+.dyanamically{
+	font-size: 25px;
 }
 
 
-
 .buttonbottom{
-	height: 200px;
-	width: 200px;
+	height: 180px;
+	width: 180px;
 	background-color: white;
 	color: black;
-	padding: 8px;
+	padding: 5px;
+	border-radius: 3px;
 
 }
 
