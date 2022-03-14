@@ -107,7 +107,7 @@
 	font-size: 50px;
 	margin-top: : 25px;
 }
-.header .button{
+.header .button {
 	height: 180px;
 	width: 180px;
 	font-size: 13px;
@@ -115,6 +115,14 @@
 	color: white;
 	padding: 8px;
 	border-radius: 5px;
+}
+
+.header .button a{
+	text-decoration: none;
+	color: white;
+}
+.header .button a:hover{
+	color: red;
 }
 
 
@@ -196,7 +204,7 @@
 }
 
 
-.buttonbottom{
+.circleimage .buttonbottom{
 	height: 180px;
 	width: 180px;
 	background-color: white;
@@ -204,6 +212,16 @@
 	padding: 5px;
 	border-radius: 3px;
 }
+.circleimage .buttonbottom a{
+	text-decoration: none;
+	color: black;
+}
+
+.circleimage .buttonbottom a:hover{
+	color: red;
+}
+
+
 
 
 
@@ -222,7 +240,14 @@
 }
 .footerr .terms{
 	color: 	#0000CD;
+}
 
+.footerr .terms a{
+text-decoration: none;
+color: 	#0000CD;
+}
+.footerr .terms a:hover{
+	color: red;
 }
 .footerr .copyrigt{
 	color: #A0A0A0;
