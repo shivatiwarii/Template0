@@ -61,7 +61,7 @@ html,body{
 }
 
 .navbar a:hover, red.dropdown:hover .dropbtn {
-	background-color: 	#888888;
+	background-color: red;
 }
 
 .navbar .dropdown-content {
@@ -97,27 +97,24 @@ html,body{
 .header {
 	text-align: center;
 	padding:70px 30px;
-	background-image: url("ban.jpg");
+	background-image: linear-gradient(#ABFB2F, #83B727);
 	display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.header, img{
-	width: 100%;
 }
 .header .proactively {
 	font-size: 50px;
 }
 
 .header .button {
-		width: 180px;
-		font-size: 13px;
-		background-color: #6666FF;
-		color: white;
-		padding: 8px;
-		border-radius: 5px;
-		border: none;
+	width: 180px;
+	font-size: 13px;
+	background-color: #6666FF;
+	color: white;
+	padding: 8px;
+	border-radius: 5px;
+	border: none;
 }
 
 .header .button a {
@@ -168,11 +165,6 @@ html,body{
     align-items: center;
 	padding: 30px;
 }
-.center-align img{
-	width: 320px; 
-	height: 300px; 
-	margin: 10px;
-}
 .efficiently {
 	font-size: 25px;
 	color: #0000FF;
@@ -187,7 +179,7 @@ html,body{
 /*    */
 
 .circleimage {
-	background-image: linear-gradient(	#FFFFFF, 	#AFE9F7);
+	background-image: linear-gradient(#ABFB2F, #83B727);
 	text-align: center;
 	justify-content: center;
 	display: flex;
@@ -197,30 +189,22 @@ html,body{
 	padding: 50px;
 }
 
-.boxbottom1 img{
-	width: 200px;
-	height: 200px; 
-	border-radius: 50%; 
-	margin: 25px;	
-}
-
 .dyanamically {
 	font-size: 22px;
 }
 
 .circleimage .buttonbottom {
+	height: 180px;
 	width: 180px;
-	font-size: 13px;
-	background-color: #6666FF;
-	color: white;
-	padding: 8px;
-	border-radius: 5px;
-	border: none;
+	background-color: white;
+	color: black;
+	padding: 5px;
+	border-radius: 3px;
 }
 
 .circleimage .buttonbottom a {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 .circleimage .buttonbottom a:hover {
@@ -268,14 +252,7 @@ html,body{
 		color:  red;
 	}
  }
- @media (max-width: 991.98px) {
- 	html,body{
- 		width: 100%;
- 		height: 100%;
- 		margin: 0px;
- 		padding: 0px;
- 		overflow-x: hidden;
- 	} 
+ @media (max-width: 991.98px) { 
 	.proactively
 	{
 		color: blue;
@@ -284,40 +261,19 @@ html,body{
 	{
 	display: block;
 	}
+
 	.center-align
 	{
 	display: block;
     }
     .efficiently {
 	display: block;
-	font-size: 35px;
 	}
-	.center img{
-	width: 70%;
-	}
-
-	 .circleimage
-    {
-    display: block;
-    }
-    .boxbottom1
-    {
-    display: block;
-    }
-    .boxbottom1 img{
-    width: 40%;
-    height: auto;
-    }
 }
 @media (max-width: 767.98px) { 
 	.proactively
 	{
 		color: yellow;
-	}
-	.nav{
-		
-		text-align: center;
-		overflow: hidden;
 	}
 
 	.center 
@@ -328,15 +284,6 @@ html,body{
 	.center-align
 	{
 	display: block;
-    }
-
-     .circleimage
-    {
-    display: block;
-    }
-    .boxbottom1
-    {
-    display: block;
     }
  }
  @media (max-width: 575.98px) { 
@@ -348,16 +295,6 @@ html,body{
 	.center-align
 	{
 	display: block;
-    }
-
-
-    .circleimage
-    {
-    display: block;
-    }
-    .boxbottom1
-    {
-    display: block;
     }
 
 }
