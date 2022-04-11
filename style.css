@@ -99,12 +99,12 @@ html,body{
 	text-align: center;
 	padding:70px 30px;
 	background-image: url("ban.jpg");
-	display: flex;
+	
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.header, img{
+.header img{
 	width: 100%;
 }
 .header .proactively {
@@ -313,7 +313,7 @@ html,body{
 @media (max-width: 767.98px) { 
 	.proactively
 	{
-		color: yellow;
+		color: #0000FF;
 	}
 	.nav{
 		
@@ -346,6 +346,8 @@ html,body{
 	position: relative;
 	left: 150px;
 	}
+
+	
  }
  @media (max-width: 575.98px) { 
 	.center 
@@ -382,7 +384,12 @@ html,body{
  	{
 	display: inline-block;
 	position: relative;
-	left: 70px;
+	left: 50px;
+	}
+	.header 
+	{
+	
+    
 	}
 
 }
