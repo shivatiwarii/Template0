@@ -6,8 +6,9 @@ html,body{
 	margin: 0;
 }
 .navbar {
-	overflow: hidden;
+	overflow: auto;
 	background-color: #333;
+	width: 100%;
 }
 
 .navbar a {
@@ -170,7 +171,7 @@ html,body{
 }
 .center-align img{
 	width: 320px; 
-	height: 300px; 
+	 
 	margin: 10px;
 }
 .efficiently {
@@ -198,8 +199,8 @@ html,body{
 }
 
 .boxbottom1 img{
-	width: 200px;
-	height: 200px; 
+	width: 60%;
+	
 	border-radius: 50%; 
 	margin: 25px;	
 }
@@ -305,8 +306,8 @@ html,body{
     display: block;
     }
     .boxbottom1 img{
-    width: 40%;
-    height: auto;
+    width: 60%;
+    
     }
 }
 @media (max-width: 767.98px) { 
@@ -338,6 +339,13 @@ html,body{
     {
     display: block;
     }
+
+    .navbar .list .item 
+ 	{
+	display: inline-block;
+	position: relative;
+	left: 150px;
+	}
  }
  @media (max-width: 575.98px) { 
 	.center 
@@ -359,5 +367,22 @@ html,body{
     {
     display: block;
     }
+
+    .navbar a
+    {
+  
+    
+    }
+    .list a
+    {
+
+
+    }
+ .navbar .list .item 
+ 	{
+	display: inline-block;
+	position: relative;
+	left: 70px;
+	}
 
 }
