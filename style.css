@@ -40,7 +40,7 @@ html,body{
 .navbar .list .item a {
 	display: block;
 	color: white;
-	padding: 14px;
+	padding: 12px;
 	text-decoration: none;
 
 }
@@ -57,7 +57,6 @@ html,body{
 	color: white;
 	padding: 14px 16px;
 	background-color: inherit;
-	font-family: inherit;
 	margin: 0;
 }
 
@@ -98,14 +97,15 @@ html,body{
 .header {
 	text-align: center;
 	padding:70px 30px;
-	background-image: url("ban.jpg");
+	background-image: url("ban5.jpg");
 	
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .header img{
-	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 .header .proactively {
 	font-size: 50px;
@@ -113,12 +113,21 @@ html,body{
 
 .header .button {
 		width: 180px;
-		font-size: 13px;
+		font-size: 15px;
 		background-color: #6666FF;
 		color: white;
 		padding: 8px;
 		border-radius: 5px;
 		border: none;
+		transition-duration: 0.4s;
+  		cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #008CBA;
+  color: white;
+
 }
 
 .header .button a {
@@ -127,7 +136,7 @@ html,body{
 }
 
 .header .button a:hover {
-	color: red;
+	font-weight: bold;
 }
 
 /*     */
@@ -210,13 +219,22 @@ html,body{
 }
 
 .circleimage .buttonbottom {
-	width: 180px;
+	width: 250px;
 	font-size: 13px;
 	background-color: #6666FF;
 	color: white;
-	padding: 8px;
+	padding: 11px;
+	font-size: 13px;
 	border-radius: 5px;
 	border: none;
+	transition-duration: 0.4s;
+  	cursor: pointer;
+}
+
+.circleimage .buttonbottom:hover {
+  background-color: #008CBA;
+  color: white;
+
 }
 
 .circleimage .buttonbottom a {
@@ -224,8 +242,8 @@ html,body{
 	color: white;
 }
 
-.circleimage .buttonbottom a:hover {
-	color: red;
+.circleimage .buttonbottom	 a:hover {
+	font-weight: bold;
 }
 
 /*     */
@@ -246,7 +264,7 @@ html,body{
 }
 
 .footerr .terms a:hover {
-	color: red;
+	color: #4CAF50;
 }
 
 .footerr .copyrigt {
@@ -264,10 +282,7 @@ html,body{
 
 
 @media (max-width: 1199.98px) { 
-	.proactively
-	{
-		color:  red;
-	}
+	
  }
  @media (max-width: 991.98px) {
  	html,body{
@@ -277,10 +292,7 @@ html,body{
  		padding: 0px;
  		overflow-x: hidden;
  	} 
-	.proactively
-	{
-		color: blue;
-	}
+	
 	.center 
 	{
 	display: block;
@@ -311,10 +323,7 @@ html,body{
     }
 }
 @media (max-width: 767.98px) { 
-	.proactively
-	{
-		color: #0000FF;
-	}
+	
 	.nav{
 		
 		text-align: center;
@@ -372,8 +381,7 @@ html,body{
 
     .navbar a
     {
-  
-    
+  	
     }
     .list a
     {
@@ -384,12 +392,8 @@ html,body{
  	{
 	display: inline-block;
 	position: relative;
-	left: 50px;
+	left: 30px;
 	}
-	.header 
-	{
-	
-    
-	}
+
 
 }
