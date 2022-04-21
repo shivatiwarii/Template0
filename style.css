@@ -20,6 +20,10 @@ html,body{
 		
 
 	}
+.navbar ul 
+	{
+		padding: 0px;
+	}
 .navbar .list .item a
 	{
 		color: white;
@@ -157,16 +161,18 @@ html,body{
 }
 
 .boxbottom1 img{
-	width: 60%;
-	object-fit: cover;
+	
 	border-radius: 50%; 
 	margin: 25px;
+	object-fit: cover;
+    width: 220px;
+    height: 220px;
 
-	object-fit: cover;	
+
 }
 
 .dyanamically {
-	font-size: 22px;
+	font-size: 25px;
 }
 
 .circleimage .buttonbottom {
@@ -175,7 +181,7 @@ html,body{
 	background-color: #6666FF;
 	color: white;
 	padding: 11px;
-	font-size: 13px;
+	font-size: 15px;
 	border-radius: 5px;
 	border: none;
 	transition-duration: 0.4s;
@@ -265,7 +271,8 @@ html,body{
 	font-size: 35px;
 	}
 	.center img{
-	width: 70%;
+	width: 500px;
+	height: 350px;
 	object-fit: cover;
 	}
 
@@ -277,9 +284,11 @@ html,body{
     {
     display: block;
     }
-    .boxbottom1 img{
-    width: 60%;
-    
+    .boxbottom1 img
+    {
+    object-fit: cover;
+    width: 270px;
+    height: 270px;
     }
 }
 @media (max-width: 767.98px) { 
@@ -316,6 +325,12 @@ html,body{
 		flex-wrap: wrap;
 		justify-content: center;
    }	
+
+   .center img{
+	width: 270px;
+	height: 200px;
+	object-fit: cover;
+	}
 	
  }
  @media (max-width: 575.98px) { 
@@ -354,5 +369,12 @@ html,body{
 		flex-wrap: wrap;
 		justify-content: flex-start;
    }
+
+   .boxbottom1 img
+    {
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+    }
    
 }
